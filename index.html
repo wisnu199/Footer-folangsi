@@ -1,0 +1,311 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<link rel="stylesheet"
+href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+
+<style>
+
+*{
+margin:0;
+padding:0;
+box-sizing:border-box;
+font-family:Arial,Helvetica,sans-serif;
+}
+
+.footer{
+background:#0b49c9;
+background:linear-gradient(180deg,#1558dd 0%,#0b49c9 100%);
+color:#fff;
+padding:70px 8% 30px;
+}
+
+.footer-container{
+display:grid;
+grid-template-columns:1.3fr 1fr 1fr 1fr 1.3fr;
+gap:40px;
+}
+
+.footer h3{
+font-size:28px;
+margin-bottom:18px;
+}
+
+.footer h4{
+font-size:22px;
+margin-bottom:20px;
+position:relative;
+}
+
+.footer h4::after{
+content:"";
+width:45px;
+height:3px;
+background:#45c2ff;
+display:block;
+margin-top:10px;
+border-radius:50px;
+}
+
+.footer p{
+line-height:1.8;
+font-size:18px;
+opacity:.95;
+}
+
+.footer ul{
+list-style:none;
+}
+
+.footer ul li{
+margin:16px 0;
+}
+
+.footer ul li a{
+color:#fff;
+text-decoration:none;
+font-size:18px;
+transition:.3s;
+}
+
+.footer ul li a:hover{
+padding-left:8px;
+color:#9fdcff;
+}
+
+.social{
+margin-top:30px;
+display:flex;
+gap:18px;
+}
+
+.social a{
+width:50px;
+height:50px;
+border:2px solid rgba(255,255,255,.5);
+border-radius:50%;
+display:flex;
+align-items:center;
+justify-content:center;
+color:#fff;
+font-size:22px;
+text-decoration:none;
+transition:.3s;
+}
+
+.social a:hover{
+background:#fff;
+color:#0b49c9;
+}
+
+.contact-item{
+display:flex;
+gap:15px;
+margin-bottom:22px;
+align-items:flex-start;
+}
+
+.contact-item i{
+font-size:24px;
+margin-top:3px;
+color:#fff;
+}
+
+.footer-bottom{
+margin-top:50px;
+padding-top:25px;
+border-top:1px solid rgba(255,255,255,.3);
+
+display:flex;
+justify-content:space-between;
+align-items:center;
+flex-wrap:wrap;
+gap:20px;
+}
+
+.footer-bottom p{
+font-size:16px;
+}
+
+.features{
+display:flex;
+gap:45px;
+flex-wrap:wrap;
+}
+
+.feature{
+display:flex;
+align-items:center;
+gap:12px;
+font-size:18px;
+}
+
+.feature i{
+font-size:28px;
+}
+
+@media(max-width:992px){
+
+.footer-container{
+grid-template-columns:1fr;
+}
+
+.footer-bottom{
+flex-direction:column;
+text-align:center;
+}
+
+.features{
+justify-content:center;
+}
+
+}
+
+</style>
+</head>
+
+<body>
+
+<footer class="footer">
+
+<div class="footer-container">
+
+<div>
+
+<h3>Folangsi Surabaya Equipment</h3>
+
+<p>
+Solusi forklift, rental, service,
+spare part dan material handling
+terpercaya untuk kebutuhan industri Anda.
+</p>
+
+<div class="social">
+
+<a href="#"><i class="fab fa-facebook-f"></i></a>
+
+<a href="#"><i class="fab fa-instagram"></i></a>
+
+<a href="#"><i class="fab fa-tiktok"></i></a>
+
+<a href="#"><i class="fab fa-youtube"></i></a>
+
+</div>
+
+</div>
+
+<div>
+
+<h4>MENU</h4>
+
+<ul>
+<li><a href="#">Home</a></li>
+<li><a href="#">About Us</a></li>
+<li><a href="#">Our Business</a></li>
+<li><a href="#">Product</a></li>
+<li><a href="#">Gallery</a></li>
+<li><a href="#">News</a></li>
+<li><a href="#">Contact</a></li>
+</ul>
+
+</div>
+
+<div>
+
+<h4>LAYANAN KAMI</h4>
+
+<ul>
+<li><a href="#">Sales Forklift</a></li>
+<li><a href="#">Rental Forklift</a></li>
+<li><a href="#">Service & Maintenance</a></li>
+<li><a href="#">Spare Part</a></li>
+<li><a href="#">Material Handling</a></li>
+<li><a href="#">Reconditioning</a></li>
+</ul>
+
+</div>
+
+<div>
+
+<h4>PRODUK KAMI</h4>
+
+<ul>
+<li><a href="#">Forklift Diesel</a></li>
+<li><a href="#">Forklift Elektrik</a></li>
+<li><a href="#">Reach Truck</a></li>
+<li><a href="#">Hand Pallet</a></li>
+<li><a href="#">Stacker</a></li>
+<li><a href="#">Dan Lainnya</a></li>
+</ul>
+
+</div>
+
+<div>
+
+<h4>KONTAK KAMI</h4>
+
+<div class="contact-item">
+<i class="fas fa-phone"></i>
+<div>+62 815-3234-2558</div>
+</div>
+
+<div class="contact-item">
+<i class="fas fa-location-dot"></i>
+<div>
+Pergudangan AKR Land GEM City,<br>
+Blok I 28,<br>
+Manyarsidorukun,<br>
+Kec. Manyar,<br>
+Kabupaten Gresik,<br>
+Jawa Timur 61151
+</div>
+</div>
+
+<div class="contact-item">
+<i class="fas fa-envelope"></i>
+<div>info@folangsisurabaya.com</div>
+</div>
+
+<div class="contact-item">
+<i class="fas fa-globe"></i>
+<div>www.folangsisurabaya.com</div>
+</div>
+
+</div>
+
+</div>
+
+<div class="footer-bottom">
+
+<p>
+© 2026 Folangsi Surabaya Equipment. All Rights Reserved.
+</p>
+
+<div class="features">
+
+<div class="feature">
+<i class="fa-solid fa-shield-halved"></i>
+<span>Kualitas Terjamin</span>
+</div>
+
+<div class="feature">
+<i class="fa-solid fa-headset"></i>
+<span>Layanan Profesional</span>
+</div>
+
+<div class="feature">
+<i class="fa-solid fa-handshake"></i>
+<span>Partner Terpercaya</span>
+</div>
+
+</div>
+
+</div>
+
+</footer>
+
+</body>
+</html>
